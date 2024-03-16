@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family:  "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333333;
+  color: #fff;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 5%;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.logo a, span{
+  color: #c70039;
+  font-size: 40px;
+  letter-spacing: .4px;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a{
+  color: #fff;
+  margin: 0 30px;
+  font-size: 17px;
+}
+
+.navlist a:hover{
+  color: #c70039;
+  transition: .6s;
+}
+
+.nav-icons i{
+  font-size: 22px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-icons i:hover{
+  color: #c70039;
+  transition: .6s;
+}
+
+.fa-bars{
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+/* ------------
+Home Sections
+--------------- */
+section{
+  padding: 80px 5%;
+}
+
+section{
+  background-image: url('images/home.jpg');
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+
+.home::after{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 600px;
+ background-color: black;
+ opacity: .6;
+}
+
+.home-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.home-text h1{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.home-text span{
+  font-size: 60px;
+}
+
+.home-text h2{
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+a.btn{
+  background-color: #c70039;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border: 1px solid #c70039;
+  display: inline-block;
+}
+
+a.btn:hover{
+  background-color: transparent;
+  transition: .6s;
+}
