@@ -86,8 +86,8 @@ section{
   height: 600px;
   width: 100%;
   background-size: cover;
-  /* background-position: center top; */
-  /* position: relative; */
+  background-position: center top;
+  position: relative;
 }
 
 .home::after{
@@ -197,4 +197,30 @@ a.p-btn{
 .p-content .text i{
   margin-left: 10px;
   font-size: 20px;
+}
+
+/*----------- 
+about sytling
+----------- */
+
+.about{
+  background-color: #111;
+}
+
+.about-content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-image{
+  flex: 1 1 45em;
+}
+
+.about-text{
+  flex: 1 1 45em;
+}
+
+.about-text p{
+  text-align: justify;
 }
