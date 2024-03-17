@@ -224,3 +224,51 @@ about sytling
 .about-text p{
   text-align: justify;
 }
+
+/*----------
+Blog Styling
+----------*/
+
+.blog-info{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1rem;
+}
+
+.blogs img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.b-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.b-head p{
+  font-weight: bolder;
+}
+
+.blogs a{
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+}
+
+.blogs p{
+  font-size: 17px;
+  color: #ccc;
+}
+
+a.b-btn{
+  text-decoration: none;
+}
+
+.blogs i{
+  margin-left: 10px;
+}
