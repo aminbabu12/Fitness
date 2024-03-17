@@ -272,3 +272,43 @@ a.b-btn{
 .blogs i{
   margin-left: 10px;
 }
+
+/*-------------
+Contact Styling
+-------------*/
+
+.contact{
+  background-color: #111;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+iframe{
+  flex: 1 1 45em;
+}
+
+form{
+  flex: 1 1 45em;
+}
+
+input, textarea{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+textarea{
+  height: 200px;
+}
+
+input[type="submit"]{
+  background-color: #c70039;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
