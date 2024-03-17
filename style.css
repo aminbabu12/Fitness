@@ -312,3 +312,52 @@ input[type="submit"]{
   color: #fff;
   cursor: pointer;
 }
+
+/*------------- 
+Trainer Styling
+-------------*/
+
+.trainers-contact{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+}
+
+.trainer{
+  text-align: center;
+}
+
+.trainer img{
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.trainer img:hover{
+  transform: scale(0.9);
+}
+
+.trainer h3{
+  color: #fff;
+  letter-spacing: .3px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.t-socials i{
+  margin-right: 10px;
+  font-size: 22px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  color: #111;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.t-socials i:hover{
+  transform: rotate(90deg);
+}
