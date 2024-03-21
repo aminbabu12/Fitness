@@ -361,3 +361,45 @@ Trainer Styling
 .t-socials i:hover{
   transform: rotate(90deg);
 }
+
+/* Footer Styling */
+
+.footer{
+  background-color: black;
+}
+
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1.5rem;
+}
+
+.f-head h4{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.f-links a{
+  display: block;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.f-text{margin-left: 60px;}
+
+.f-social i{
+  font-size: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 50%;
+  padding: 10px;
+  color: #c70039;
+  transition: all .5s;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.f-social i:hover{
+  transform: rotate(180deg);
+}
