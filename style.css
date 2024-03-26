@@ -455,6 +455,10 @@ Responsiveness
     justify-content: center;
   }
 
+  .about-content{
+    height: 1100px;
+  }
+
   input,textarea{
     width: 500px;
   }
