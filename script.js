@@ -8,6 +8,8 @@ window.onscroll = ()=>{
   }else{
     header.classList.remove('scroll');
   }
+  navlist.classList.remove('show');
+  menu.classList.remove('fa-xmark');
 }
 
 menu.addEventListener('click',()=>{

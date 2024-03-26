@@ -385,7 +385,7 @@ Trainer Styling
   margin-bottom: 10px;
 }
 
-.f-text{margin-left: 60px;}
+.f-text{margin-left: 3px; margin-bottom: 5px;}
 
 .f-social i{
   font-size: 24px;
@@ -444,5 +444,70 @@ Responsiveness
 
   .fa-bars{
     display: inline-block;
+  }
+}
+
+@media(max-width: 743px){
+  .about-content, .contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,textarea{
+    width: 500px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .programs img{
+    width: 100%;
+  }
+
+  .about-image img{
+    width: 100%;
+  }
+
+  .blogs img{
+    width: 100%;
+  }
+
+  .trainer{
+    margin: 20px;
+  }
+
+  .trainer img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 522px){
+  input,textarea{
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .home-text h1, span{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .home-text h2{
+    font-size: 20px;
+  }
+
+  a.btn{
+    padding: 12px 24px;
+  }
+
+  .head h2{
+    font-size: 22px;
+  }
+
+  .head h3{
+    font-size: 20px;
   }
 }
