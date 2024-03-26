@@ -385,7 +385,9 @@ Trainer Styling
   margin-bottom: 10px;
 }
 
-.f-text{margin-left: 3px; margin-bottom: 5px;}
+.f-text{
+  margin-left: 60px;
+}
 
 .f-social i{
   font-size: 24px;
@@ -513,5 +515,9 @@ Responsiveness
 
   .head h3{
     font-size: 20px;
+  }
+
+  .f-text{
+    margin-left: 3px;
   }
 }
